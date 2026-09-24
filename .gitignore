@@ -1,0 +1,20 @@
+imlab/build/
+imlab/data/*
+!imlab/data/.gitkeep
+
+references/*
+!references/.gitkeep
+!references/README.md
+
+# Personal study material (learning plan, deep-dive notes, task breakdowns).
+# Not part of the shipped project - only imlab/ (code) and imlab/docs/ (work log) get committed.
+study/
+
+# Personal progress tracker, not part of the shipped project.
+ROADMAP.md
+
+compile_commands.json
+*.o
+*.so
+*.a
+.cache/
